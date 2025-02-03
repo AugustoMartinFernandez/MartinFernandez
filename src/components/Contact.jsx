@@ -1,4 +1,4 @@
-import 'react';
+import 'react'; 
 import { Container, Form, Button, Row, Col } from 'react-bootstrap';
 
 const Contact = () => {
@@ -8,9 +8,9 @@ const Contact = () => {
   };
 
   return (
-    <section id="contacto" className="contact">
+    <section id="contact" className="contact">
       <Container>
-        <h2 className="section-title text-center">Contacto</h2>
+        <h2 className="section-title text-center">Contact</h2>
         <div className="contact-content">
           <Row>
             <Col lg={8} className="mx-auto">
@@ -18,14 +18,14 @@ const Contact = () => {
                 <Form.Group className="mb-4">
                   <Form.Control 
                     type="text" 
-                    placeholder="Nombre" 
+                    placeholder="Name" 
                     required 
                     className="form-control-custom"
                     style={{
                       padding: '0.8rem',
                       backgroundColor: '#1a1a1a',
                       border: '1px solid #00b7ff',
-                      color: '#ffffff',
+                      color: '#ffd700e6',
                       borderRadius: '5px'
                     }}
                   />
@@ -33,7 +33,7 @@ const Contact = () => {
                 <Form.Group className="mb-4">
                   <Form.Control 
                     type="email" 
-                    placeholder="Correo electrónico" 
+                    placeholder="Email" 
                     required
                     className="form-control-custom"
                     style={{
@@ -49,14 +49,14 @@ const Contact = () => {
                   <Form.Control 
                     as="textarea" 
                     rows={4} 
-                    placeholder="Mensaje" 
+                    placeholder="Message" 
                     required
                     className="form-control-custom"
                     style={{
                       padding: '0.8rem',
                       backgroundColor: '#1a1a1a',
                       border: '1px solid #00b7ff',
-                      color: '#ffffff',
+                      color: '#ffd700e6',
                       borderRadius: '5px'
                     }}
                   />
@@ -72,7 +72,7 @@ const Contact = () => {
                     transition: 'all 0.3s ease'
                   }}
                 >
-                  Enviar
+                  Send
                 </Button>
               </Form>
             </Col>

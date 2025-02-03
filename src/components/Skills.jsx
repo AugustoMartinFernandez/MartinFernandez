@@ -8,7 +8,7 @@ import {
   FaSass,
   FaNpm
 } from 'react-icons/fa';
-import { SiTailwindcss, } from 'react-icons/si';
+import { SiTailwindcss } from 'react-icons/si';
 
 const Skills = () => {
   const skillCategories = [
@@ -22,7 +22,7 @@ const Skills = () => {
       ]
     },
     {
-      title: 'Herramientas & Otros',
+      title: 'Tools & Others',
       skills: [
         { icon: <FaGitAlt size={50} />, name: 'Git', level: 65 },
         { icon: <FaSass size={50} />, name: 'Sass', level: 80 },
@@ -35,7 +35,7 @@ const Skills = () => {
   return (
     <section id="habilidades" className="skills-section py-5">
       <Container>
-        <h2 className="section-title text-center mb-5">Habilidades</h2>
+        <h2 className="section-title text-center mb-5">Skills</h2>
         {skillCategories.map((category, categoryIndex) => (
           <div key={categoryIndex} className="skill-category mb-5">
             <h3 className="category-title text-center mb-4">{category.title}</h3>
